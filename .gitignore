@@ -1,0 +1,73 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environment Variables & Virtual Environment
+.venv-quant-sandbox
+.venv
+
+.env
+production.env
+.env.*
+!.env.example
+
+env/
+venv/
+ENV/
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# IDE - Others
+*.swp
+*.swo
+*~
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Coverage and Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Local Development
+.development-docs/
+local_settings.py
